@@ -1,9 +1,10 @@
-public class Tuple2<T1, T2> { 
-  public T1 first; 
-  public T2 second;
+public class Tuple3F { 
+  public float first; 
+  public float second;
+  public float third;
 
   public String toString() {
-    return first + ", " + second;
+    return first + ", " + second + ", " + third;
   }
 }
 
@@ -80,7 +81,7 @@ class Circle {
 
   public class Color { 
 
-    public Tuple3<Float, Float, Float> value = new Tuple3<Float, Float, Float>();
+    public Tuple3F value = new Tuple3F();
     
     final float medianeMin = 0.0f;
     final float medianMax = 255.0f;
