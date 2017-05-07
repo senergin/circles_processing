@@ -175,7 +175,7 @@ class Circle {
       fill(ccolor.value.first, ccolor.value.second, ccolor.value.third);
       ellipse(center.x, center.y, size.radius * 1.0f, size.radius * 1.0f);
 
-      fill(255);
+      fill(255, 0);
       ellipse(center.x, center.y, size.radius * 0.8f, size.radius * 0.8f);
 
       frameDeltaMag -= drawDistance.value;
